@@ -1,0 +1,4 @@
+body {
+    background:url("/fundo.png")rgb(177, 177, 177) no-repeat;
+    background-size: cover;
+}
