@@ -1,4 +1,4 @@
+const mozilla = "Mozilla Developer Network";
+const MDN = mozilla[0] + mozilla[8] + mozilla[18];
 
-const linguagem = "javascript";
-
-console.log(linguagem.length);
+console.log(MDN);

@@ -1,18 +1,16 @@
 // string
-let escolha = "essa é a sua escolha?";
+let nome = "andrey"
 
 // inteiro
-let ano = 2025;
+let idade = 19;
+ 
+// booleado
+let casado = false;
 
-// float
-let arvores = 2.17;
+// numeros futuantes
+let valorproduto = 5.35;
 
-// booleados
-let recebeu = true;
-
-// impresssão
-console.log("escolheu", escolha);
-console.log("ano:", ano);
-console.log("arvores contadas", arvores);
-console.log("receba", recebeu);
-console.log()
+console.log("Meu noem é", nome);
+console.log("iade:", idade);
+console.log("casado?" + casado);
+console.log("R$", valorproduto);
