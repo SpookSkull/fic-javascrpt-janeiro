@@ -2,6 +2,7 @@ let brazilianFoods = [];
 
 brazilianFoods.push("conxinha", null, "brigadeiro");
 
-razilianFoods[1] ="pão de queijo"
+razilianFoods[1] ="pão de queijo";
 
-console.log(brazilianFoods);
+console.log(brazilianFoods[1]);
+
