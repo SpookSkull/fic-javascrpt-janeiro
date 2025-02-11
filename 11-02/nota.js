@@ -1,4 +1,4 @@
-let nota = prompt("digite um numero");
+let nota = prompt("digite sua nota");
 
 
 if (nota >= 6) {
