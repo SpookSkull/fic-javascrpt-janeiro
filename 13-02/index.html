@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabuada de teste</title>
+    <title>fanção</title>
 </head>
 <body>
-    <h1>tabuada</h1>
+    <h1>teste novo</h1>
+
+    <div id="test"></div>
+
+    <button>clique aqui</button>
 
     
-    <script  src="while.js" > </script>
-
+    <script  src="./func.js" > </script>
+    document.getElementById("test").addEventListener("click", function( event ) {
+        // mostra o contador de cliques dentro da div clicada
+        event.target.innerHTML = "Total de cliques: " + event.detail;
+      }, false);
 </body>
 </html>
