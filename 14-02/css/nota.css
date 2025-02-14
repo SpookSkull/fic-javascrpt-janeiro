@@ -16,7 +16,7 @@ body {
     /*borda arredondada*/
     border-radius: 5px;
     /*centralizar minha telas*/
-    margin: o auto;
+    margin: 40 auto;
 }
 
 .container form {
@@ -37,4 +37,17 @@ body {
     margin-bottom: 15px;
     outline: none;
     padding: 5px;
+}
+#verifica-nota {
+    background: #191970;
+    border: 1px solid white;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+#resultado {
+    color: #fff;
+    margin-bottom: 10px;
 }
