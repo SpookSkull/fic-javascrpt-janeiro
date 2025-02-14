@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #483D8B;
+}
+
+.container {
+    /*lagura*/
+    max-width: 450px;
+    /*borda*/
+    border: 2px solid white;
+    /*borda arredondada*/
+    border-radius: 5px;
+    /*centralizar minha telas*/
+    margin: o auto;
+}
+
+.container form {
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control label {
+    margin-top: 15px;
+    color: black;
+    display: block;
+}
+
+.form-control input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 5px;
+}
