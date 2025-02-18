@@ -13,4 +13,7 @@ function mudar(event) {
     titulo.innerHTML = nome.value;
     subtitulo.innerHTML = cidade.value;
     txtemail.innerHTML = email.value;
+    nome.value = "";
+    cidade.value = "";
+    email.value = "";
 }
