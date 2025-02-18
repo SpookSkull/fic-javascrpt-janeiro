@@ -14,6 +14,9 @@ function resultadonotaclick(event) {
       message.style.display = "block";
         return false;
     }
+
+    message.style.display = "none";
+
     if (inputnota.value >= 6) {
         resultado.innerHTML = "aprovado";
     } else {
