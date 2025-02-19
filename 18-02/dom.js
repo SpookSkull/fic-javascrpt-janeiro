@@ -10,10 +10,23 @@ function mudar(event) {
     event.preventDefault();
     console.log(nome.value);
 
-    titulo.innerHTML = nome.value;
+    if (nome.value === "" || cidade.value === "" || email.value === "") {
+        alert("preencha o campo por favor");
+        return false;
+    }
+
+   titulo.innerHTML = nome.value;
     subtitulo.innerHTML = cidade.value;
     txtemail.innerHTML = email.value;
     nome.value = "";
     cidade.value = "";
-    email.value = "";
+    email.value = "";s
 }
+
+function mudarCor() {
+    if (document.body.style.backgroundColor === "blue") {
+        document.body.style.backgroundColor = "";
+    } else {
+        document.body.style.backgroundColor = "blue";  // maneira estranha de voltar a cor original
+    }
+} 
