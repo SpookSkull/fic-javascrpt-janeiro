@@ -12,4 +12,5 @@ const salvarBtn = document.querySelector("#salvar");
 
         // exibir valores salvos
         carregarvaloressalvos();
+        
     });
