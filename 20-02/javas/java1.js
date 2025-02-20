@@ -9,4 +9,7 @@ const salvarBtn = document.querySelector("#salvar");
         const chave = `ValorSalvo_${Date.now()}`; // local de salmento
         console.log(chave)
         localStorage.setItem(chave, valor);
+
+        // exibir valores salvos
+        carregarvaloressalvos();
     });
