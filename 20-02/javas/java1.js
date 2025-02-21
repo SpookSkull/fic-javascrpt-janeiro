@@ -12,5 +12,11 @@ const salvarBtn = document.querySelector("#salvar");
 
         // exibir valores salvos
         carregarvaloressalvos();
-        
+
+        //garantir que vai escrever algo
+        if (campo.value === "") {
+            alert("digite no campo por favor");
+            return false;
+        }
+        campo.value = "";
     });
