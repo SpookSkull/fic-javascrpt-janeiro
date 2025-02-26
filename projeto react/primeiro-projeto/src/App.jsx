@@ -1,17 +1,22 @@
-import header from "./Components/header";
+import "./app.css";
+import Banner from "./Components/Banner";
+import Header from "./Components/Header";
+
 
 function App() {
 
   return (
     <>
     <div className="container">
+      <Header title="logo new"/>
+      <Header title="react dificil"/>
       
+      <Banner>
+        <h1>bem vindo a este site</h1>
+        <p>Aqui você vai ver esse site feio </p>
+      </Banner>
       <h1>seja bem vindo</h1>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere quis corrupti, laudantium aliquam velit nemo harum.
-         Labore, similique porro fugit ad fugiat exercitationem impedit laudantium officia esse praesentium illum?
-      </p>
 
     </div>
     </>
