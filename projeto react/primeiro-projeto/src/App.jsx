@@ -3,6 +3,7 @@ import Banner from "./Components/Banner";
 import Header from "./Components/Header";
 import ImgCard from "./Components/imgcard";
 import img2 from "./assets/img2.jpg";
+import img1 from "./assets/img1.jpg";
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
         <p>Aqui você vai ver esse site feio </p>
       </Banner>
       
+      <ImgCard caption="imagem" newimg={img1}/>
       <ImgCard caption="imagem" newimg={img2}/>
-      <img src={img2} />
 
 
     </div>
