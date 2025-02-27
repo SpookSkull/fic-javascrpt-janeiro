@@ -1,5 +1,5 @@
 header {
-    height: 120px;
+    height: 150px;
     background: rgb(209, 207, 207);
     border-bottom: 2px solid blueviolet;
 }
@@ -7,4 +7,10 @@ header h1 {
     padding: 35px;
     text-transform: uppercase;
     color: blueviolet;
+}
+header h2 {
+    padding: 20px;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-align: center;
 }
