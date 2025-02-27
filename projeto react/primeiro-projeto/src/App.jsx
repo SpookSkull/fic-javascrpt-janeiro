@@ -22,8 +22,11 @@ function App() {
       </Banner>
       
       <ImgCard caption="imagem" newimg={img1}/>
-      <ImgCard caption="imagem" newimg={img2}/>
-      <ImgCard caption="imagem" newimg={pag1}/>
+      {/* <div className="card">
+            <h2>nome title</h2>
+            <p>texto texto</p>
+            <a href="#">saiba mais</a>
+        </div>  */}
       <div>
         <Card />
 
