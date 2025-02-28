@@ -26,6 +26,11 @@ export default function index() {
         nome: "bangu",
         responsavel: "carlão",
         valor: 888
+      },
+       {
+        nome: "jazz",
+        responsavel: "senor",
+        valor: 900
       }
     ]
 
